@@ -20,24 +20,41 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="UnitTests" Type="Folder">
-			<Item Name="clarke.vi" Type="VI" URL="../UnitTests/clarke.vi"/>
+			<Item Name="AlphaBeta.vi" Type="VI" URL="../UnitTests/AlphaBeta.vi"/>
 			<Item Name="DeltaToWye.vi" Type="VI" URL="../UnitTests/DeltaToWye.vi"/>
-			<Item Name="park.vi" Type="VI" URL="../UnitTests/park.vi"/>
+			<Item Name="DQ_test.vi" Type="VI" URL="../UnitTests/DQ_test.vi"/>
 			<Item Name="sincos.vi" Type="VI" URL="../UnitTests/sincos.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
+			<Item Name="ABCtoAlphaBeta_2PhasePowerInvariant_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ABCtoAlphaBeta_2PhasePowerInvariant_src.vi"/>
+			<Item Name="ABCtoAlphaBeta_2PhaseUnitaryMagnitude_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ABCtoAlphaBeta_2PhaseUnitaryMagnitude_src.vi"/>
+			<Item Name="ABCtoAlphaBeta_3PhasePowerInvariant_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ABCtoAlphaBeta_3PhasePowerInvariant_src.vi"/>
+			<Item Name="ABCtoAlphaBeta_3PhaseUnitaryMagnitude_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ABCtoAlphaBeta_3PhaseUnitaryMagnitude_src.vi"/>
 			<Item Name="ABCtoAlphaBeta_src.vi" Type="VI" URL="../ABCtoAlphaBeta_src.vi"/>
+			<Item Name="ABCtoDQ_2PhasePowerInvariant_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ABCtoDQ_2PhasePowerInvariant_src.vi"/>
+			<Item Name="ABCtoDQ_2PhaseUnitaryMagnitude_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ABCtoDQ_2PhaseUnitaryMagnitude_src.vi"/>
+			<Item Name="ABCtoDQ_3PhasePowerInvariant_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ABCtoDQ_3PhasePowerInvariant_src.vi"/>
+			<Item Name="ABCtoDQ_3PhaseUnitaryMagnitude_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ABCtoDQ_3PhaseUnitaryMagnitude_src.vi"/>
+			<Item Name="ABCtoDQ_noSine_2PhasePowerInvariant_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ABCtoDQ_noSine_2PhasePowerInvariant_src.vi"/>
+			<Item Name="ABCtoDQ_noSine_2PhaseUnitaryMagnitude_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ABCtoDQ_noSine_2PhaseUnitaryMagnitude_src.vi"/>
+			<Item Name="ABCtoDQ_noSine_3PhasePowerInvariant_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ABCtoDQ_noSine_3PhasePowerInvariant_src.vi"/>
+			<Item Name="ABCtoDQ_noSine_3PhaseUnitaryMagnitude_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ABCtoDQ_noSine_3PhaseUnitaryMagnitude_src.vi"/>
 			<Item Name="ABCtoDQ_src.vi" Type="VI" URL="../ABCtoDQ_src.vi"/>
+			<Item Name="AlphaBetaToABC_PowerInvariant_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/AlphaBetaToABC_PowerInvariant_src.vi"/>
 			<Item Name="AlphaBetaToABC_src.vi" Type="VI" URL="../AlphaBetaToABC_src.vi"/>
-			<Item Name="AlphaBetaToDQ_noSine_src.vi" Type="VI" URL="../AlphaBetaToDQ_noSine_src.vi"/>
-			<Item Name="AlphaBetaToDQ_src.vi" Type="VI" URL="../AlphaBetaToDQ_src.vi"/>
+			<Item Name="AlphaBetaToABC_UnitaryMagnitude_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/AlphaBetaToABC_UnitaryMagnitude_src.vi"/>
+			<Item Name="AlphaBetaToDQ_noSine_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/AlphaBetaToDQ_noSine_src.vi"/>
+			<Item Name="AlphaBetaToDQ_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/AlphaBetaToDQ_src.vi"/>
 			<Item Name="DeltaToWye_src.vi" Type="VI" URL="../DeltaToWye_src.vi"/>
-			<Item Name="DQtoABC_noSine_src.vi" Type="VI" URL="../DQtoABC_noSine_src.vi"/>
+			<Item Name="DQtoABC_noSine_PowerInvariant_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/DQtoABC_noSine_PowerInvariant_src.vi"/>
+			<Item Name="DQtoABC_noSine_UnitaryMagnitude_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/DQtoABC_noSine_UnitaryMagnitude_src.vi"/>
+			<Item Name="DQtoABC_PowerInvariant_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/DQtoABC_PowerInvariant_src.vi"/>
 			<Item Name="DQtoABC_src.vi" Type="VI" URL="../DQtoABC_src.vi"/>
-			<Item Name="DQtoAlphaBeta_noSine_src.vi" Type="VI" URL="../DQtoAlphaBeta_noSine_src.vi"/>
+			<Item Name="DQtoABC_UnitaryMagnitude_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/DQtoABC_UnitaryMagnitude_src.vi"/>
+			<Item Name="DQtoAlphaBeta_noSine_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/DQtoAlphaBeta_noSine_src.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="sincosFXP.vi" Type="VI" URL="../sincosFXP.vi"/>
 			<Item Name="sincosSGL.vi" Type="VI" URL="../sincosSGL.vi"/>
@@ -165,20 +182,41 @@
 					<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
 				</Item>
 				<Item Name="IP Builder" Type="IP Builder Target">
+					<Item Name="Alpha-Beta and D-Q variants" Type="Folder">
+						<Item Name="ABCtoAlphaBeta_2PhasePowerInvariant_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ABCtoAlphaBeta_2PhasePowerInvariant_src.vi"/>
+						<Item Name="ABCtoAlphaBeta_2PhaseUnitaryMagnitude_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ABCtoAlphaBeta_2PhaseUnitaryMagnitude_src.vi"/>
+						<Item Name="ABCtoAlphaBeta_3PhasePowerInvariant_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ABCtoAlphaBeta_3PhasePowerInvariant_src.vi"/>
+						<Item Name="ABCtoAlphaBeta_3PhaseUnitaryMagnitude_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ABCtoAlphaBeta_3PhaseUnitaryMagnitude_src.vi"/>
+						<Item Name="DQtoAlphaBeta_src.vi" Type="VI" URL="../DQtoAlphaBeta_src.vi"/>
+						<Item Name="sincosFXP.vi" Type="VI" URL="../sincosFXP.vi"/>
+						<Item Name="sincosSGL.vi" Type="VI" URL="../sincosSGL.vi"/>
+					</Item>
 					<Item Name="ABCtoAlphaBeta_src.vi" Type="VI" URL="../ABCtoAlphaBeta_src.vi"/>
-					<Item Name="ABCtoDQ_noSine_src.vi" Type="VI" URL="../ABCtoDQ_noSine_src.vi"/>
 					<Item Name="ABCtoDQ_src.vi" Type="VI" URL="../ABCtoDQ_src.vi"/>
 					<Item Name="AlphaBetaToABC_src.vi" Type="VI" URL="../AlphaBetaToABC_src.vi"/>
-					<Item Name="AlphaBetaToDQ_noSine_src.vi" Type="VI" URL="../AlphaBetaToDQ_noSine_src.vi"/>
-					<Item Name="AlphaBetaToDQ_src.vi" Type="VI" URL="../AlphaBetaToDQ_src.vi"/>
+					<Item Name="AlphaBetaToDQ__src.vi" Type="VI" URL="../AlphaBetaToDQ__src.vi"/>
 					<Item Name="DeltaToWye_src.vi" Type="VI" URL="../DeltaToWye_src.vi"/>
-					<Item Name="DQtoABC_noSine_src.vi" Type="VI" URL="../DQtoABC_noSine_src.vi"/>
 					<Item Name="DQtoABC_src.vi" Type="VI" URL="../DQtoABC_src.vi"/>
-					<Item Name="DQtoAlphaBeta_noSine_src.vi" Type="VI" URL="../DQtoAlphaBeta_noSine_src.vi"/>
-					<Item Name="DQtoAlphaBeta_src.vi" Type="VI" URL="../DQtoAlphaBeta_src.vi"/>
-					<Item Name="sincosFXP.vi" Type="VI" URL="../sincosFXP.vi"/>
-					<Item Name="sincosSGL.vi" Type="VI" URL="../sincosSGL.vi"/>
-					<Item Name="Dependencies" Type="Dependencies"/>
+					<Item Name="DQtoAlphaBeta__src.vi" Type="VI" URL="../DQtoAlphaBeta__src.vi"/>
+					<Item Name="Dependencies" Type="Dependencies">
+						<Item Name="ABCtoDQ_2PhasePowerInvariant_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ABCtoDQ_2PhasePowerInvariant_src.vi"/>
+						<Item Name="ABCtoDQ_2PhaseUnitaryMagnitude_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ABCtoDQ_2PhaseUnitaryMagnitude_src.vi"/>
+						<Item Name="ABCtoDQ_3PhasePowerInvariant_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ABCtoDQ_3PhasePowerInvariant_src.vi"/>
+						<Item Name="ABCtoDQ_3PhaseUnitaryMagnitude_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ABCtoDQ_3PhaseUnitaryMagnitude_src.vi"/>
+						<Item Name="ABCtoDQ_noSine_2PhasePowerInvariant_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ABCtoDQ_noSine_2PhasePowerInvariant_src.vi"/>
+						<Item Name="ABCtoDQ_noSine_2PhaseUnitaryMagnitude_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ABCtoDQ_noSine_2PhaseUnitaryMagnitude_src.vi"/>
+						<Item Name="ABCtoDQ_noSine_3PhasePowerInvariant_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ABCtoDQ_noSine_3PhasePowerInvariant_src.vi"/>
+						<Item Name="ABCtoDQ_noSine_3PhaseUnitaryMagnitude_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ABCtoDQ_noSine_3PhaseUnitaryMagnitude_src.vi"/>
+						<Item Name="AlphaBetaToABC_PowerInvariant_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/AlphaBetaToABC_PowerInvariant_src.vi"/>
+						<Item Name="AlphaBetaToABC_UnitaryMagnitude_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/AlphaBetaToABC_UnitaryMagnitude_src.vi"/>
+						<Item Name="AlphaBetaToDQ_noSine_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/AlphaBetaToDQ_noSine_src.vi"/>
+						<Item Name="AlphaBetaToDQ_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/AlphaBetaToDQ_src.vi"/>
+						<Item Name="DQtoABC_noSine_PowerInvariant_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/DQtoABC_noSine_PowerInvariant_src.vi"/>
+						<Item Name="DQtoABC_noSine_UnitaryMagnitude_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/DQtoABC_noSine_UnitaryMagnitude_src.vi"/>
+						<Item Name="DQtoABC_PowerInvariant_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/DQtoABC_PowerInvariant_src.vi"/>
+						<Item Name="DQtoABC_UnitaryMagnitude_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/DQtoABC_UnitaryMagnitude_src.vi"/>
+						<Item Name="DQtoAlphaBeta_noSine_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/DQtoAlphaBeta_noSine_src.vi"/>
+					</Item>
 					<Item Name="Build Specifications" Type="Build"/>
 				</Item>
 				<Item Name="RMC Socket" Type="FPGA Component Level IP">
