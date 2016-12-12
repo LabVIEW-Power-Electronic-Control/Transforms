@@ -23,11 +23,16 @@
 			<Item Name="AlphaBeta.vi" Type="VI" URL="../UnitTests/AlphaBeta.vi"/>
 			<Item Name="DeltaToWye.vi" Type="VI" URL="../UnitTests/DeltaToWye.vi"/>
 			<Item Name="DQ_test.vi" Type="VI" URL="../UnitTests/DQ_test.vi"/>
-			<Item Name="sincos.vi" Type="VI" URL="../UnitTests/sincos.vi"/>
+			<Item Name="sincosTest.vi" Type="VI" URL="../UnitTests/sincosTest.vi"/>
+			<Item Name="SymmetricalCompoentsToO.vi" Type="VI" URL="../UnitTests/SymmetricalCompoentsToO.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_EMSim_Utility.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/E-Motor Simulation/Utility/NI_EMSim_Utility.lvlib"/>
+				<Item Name="NI_EP_Basic.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Electrical Power/Basic/NI_EP_Basic.lvlib"/>
+				<Item Name="shared_Create Error.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Electrical Power/Common/Shared subVIs/shared_Create Error.vi"/>
 			</Item>
 			<Item Name="ABCtoAlphaBeta_2PhasePowerInvariant_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ABCtoAlphaBeta_2PhasePowerInvariant_src.vi"/>
 			<Item Name="ABCtoAlphaBeta_2PhaseUnitaryMagnitude_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ABCtoAlphaBeta_2PhaseUnitaryMagnitude_src.vi"/>
@@ -46,8 +51,12 @@
 			<Item Name="AlphaBetaToABC_PowerInvariant_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/AlphaBetaToABC_PowerInvariant_src.vi"/>
 			<Item Name="AlphaBetaToABC_src.vi" Type="VI" URL="../AlphaBetaToABC_src.vi"/>
 			<Item Name="AlphaBetaToABC_UnitaryMagnitude_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/AlphaBetaToABC_UnitaryMagnitude_src.vi"/>
+			<Item Name="AlphaBetaToDQ__src.vi" Type="VI" URL="../AlphaBetaToDQ__src.vi"/>
 			<Item Name="AlphaBetaToDQ_noSine_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/AlphaBetaToDQ_noSine_src.vi"/>
 			<Item Name="AlphaBetaToDQ_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/AlphaBetaToDQ_src.vi"/>
+			<Item Name="ComplexMultiplySGL_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ComplexMultiplySGL_src.vi"/>
+			<Item Name="ComplexSGL" Type="VI" URL="../AlphaBetaAndDQ_variants/ComplexSGL"/>
+			<Item Name="CORDIC.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FPGAIPBuilder/CORDIC/Algorithm/CORDIC.vi"/>
 			<Item Name="DeltaToWye_src.vi" Type="VI" URL="../DeltaToWye_src.vi"/>
 			<Item Name="DQtoABC_noSine_PowerInvariant_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/DQtoABC_noSine_PowerInvariant_src.vi"/>
 			<Item Name="DQtoABC_noSine_UnitaryMagnitude_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/DQtoABC_noSine_UnitaryMagnitude_src.vi"/>
@@ -56,8 +65,10 @@
 			<Item Name="DQtoABC_UnitaryMagnitude_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/DQtoABC_UnitaryMagnitude_src.vi"/>
 			<Item Name="DQtoAlphaBeta_noSine_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/DQtoAlphaBeta_noSine_src.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="sincos.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FPGAIPBuilder/CORDIC/Algorithm/sincos.vi"/>
 			<Item Name="sincosFXP.vi" Type="VI" URL="../sincosFXP.vi"/>
 			<Item Name="sincosSGL.vi" Type="VI" URL="../sincosSGL.vi"/>
+			<Item Name="SymmetricalComponents_src.vi" Type="VI" URL="../SymmetricalComponents_src.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -211,9 +222,12 @@
 					<Item Name="ABCtoDQ_src.vi" Type="VI" URL="../ABCtoDQ_src.vi"/>
 					<Item Name="AlphaBetaToABC_src.vi" Type="VI" URL="../AlphaBetaToABC_src.vi"/>
 					<Item Name="AlphaBetaToDQ__src.vi" Type="VI" URL="../AlphaBetaToDQ__src.vi"/>
+					<Item Name="ComplexMultiplySGL_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ComplexMultiplySGL_src.vi"/>
+					<Item Name="ComplexSGL" Type="VI" URL="../AlphaBetaAndDQ_variants/ComplexSGL"/>
 					<Item Name="DeltaToWye_src.vi" Type="VI" URL="../DeltaToWye_src.vi"/>
 					<Item Name="DQtoABC_src.vi" Type="VI" URL="../DQtoABC_src.vi"/>
 					<Item Name="DQtoAlphaBeta__src.vi" Type="VI" URL="../DQtoAlphaBeta__src.vi"/>
+					<Item Name="SymmetricalComponents_src.vi" Type="VI" URL="../SymmetricalComponents_src.vi"/>
 					<Item Name="Dependencies" Type="Dependencies">
 						<Item Name="AlphaBetaToDQ_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/AlphaBetaToDQ_src.vi"/>
 					</Item>
