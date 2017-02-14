@@ -63,7 +63,9 @@
 			<Item Name="DQtoABC_PowerInvariant_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/DQtoABC_PowerInvariant_src.vi"/>
 			<Item Name="DQtoABC_src.vi" Type="VI" URL="../DQtoABC_src.vi"/>
 			<Item Name="DQtoABC_UnitaryMagnitude_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/DQtoABC_UnitaryMagnitude_src.vi"/>
+			<Item Name="DQtoAlphaBeta__src.vi" Type="VI" URL="../DQtoAlphaBeta__src.vi"/>
 			<Item Name="DQtoAlphaBeta_noSine_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/DQtoAlphaBeta_noSine_src.vi"/>
+			<Item Name="DQtoAlphaBeta_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/DQtoAlphaBeta_src.vi"/>
 			<Item Name="InvSymmetricalComponents_src.vi" Type="VI" URL="../InvSymmetricalComponents_src.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="sincos.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FPGAIPBuilder/CORDIC/Algorithm/sincos.vi"/>
