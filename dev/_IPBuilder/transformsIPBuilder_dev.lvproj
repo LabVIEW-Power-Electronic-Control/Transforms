@@ -30,7 +30,6 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-				<Item Name="NI_EMSim_Utility.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/E-Motor Simulation/Utility/NI_EMSim_Utility.lvlib"/>
 				<Item Name="NI_EP_Basic.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Electrical Power/Basic/NI_EP_Basic.lvlib"/>
 				<Item Name="shared_Create Error.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Electrical Power/Common/Shared subVIs/shared_Create Error.vi"/>
 			</Item>
@@ -225,6 +224,7 @@
 					<Item Name="ABCtoDQ_src.vi" Type="VI" URL="../ABCtoDQ_src.vi"/>
 					<Item Name="AlphaBetaToABC_src.vi" Type="VI" URL="../AlphaBetaToABC_src.vi"/>
 					<Item Name="AlphaBetaToDQ__src.vi" Type="VI" URL="../AlphaBetaToDQ__src.vi"/>
+					<Item Name="AlphaBetaToDQ_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/AlphaBetaToDQ_src.vi"/>
 					<Item Name="ComplexMultiplySGL_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ComplexMultiplySGL_src.vi"/>
 					<Item Name="ComplexSGL" Type="VI" URL="../AlphaBetaAndDQ_variants/ComplexSGL"/>
 					<Item Name="DeltaToWye_src.vi" Type="VI" URL="../DeltaToWye_src.vi"/>
@@ -232,9 +232,7 @@
 					<Item Name="DQtoAlphaBeta__src.vi" Type="VI" URL="../DQtoAlphaBeta__src.vi"/>
 					<Item Name="InvSymmetricalComponents_src.vi" Type="VI" URL="../InvSymmetricalComponents_src.vi"/>
 					<Item Name="SymmetricalComponents_src.vi" Type="VI" URL="../SymmetricalComponents_src.vi"/>
-					<Item Name="Dependencies" Type="Dependencies">
-						<Item Name="AlphaBetaToDQ_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/AlphaBetaToDQ_src.vi"/>
-					</Item>
+					<Item Name="Dependencies" Type="Dependencies"/>
 					<Item Name="Build Specifications" Type="Build"/>
 				</Item>
 				<Item Name="RMC Socket" Type="FPGA Component Level IP">
