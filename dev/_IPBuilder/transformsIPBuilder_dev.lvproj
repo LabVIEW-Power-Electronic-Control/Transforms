@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="15008000">
+<Project Type="Project" LVVersion="17008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -28,10 +28,7 @@
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-				<Item Name="NI_EP_Basic.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Electrical Power/Basic/NI_EP_Basic.lvlib"/>
-				<Item Name="shared_Create Error.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Electrical Power/Common/Shared subVIs/shared_Create Error.vi"/>
 			</Item>
 			<Item Name="ABCtoAlphaBeta_2PhasePowerInvariant_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ABCtoAlphaBeta_2PhasePowerInvariant_src.vi"/>
 			<Item Name="ABCtoAlphaBeta_2PhaseUnitaryMagnitude_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ABCtoAlphaBeta_2PhaseUnitaryMagnitude_src.vi"/>
@@ -55,7 +52,6 @@
 			<Item Name="AlphaBetaToDQ_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/AlphaBetaToDQ_src.vi"/>
 			<Item Name="ComplexMultiplySGL_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/ComplexMultiplySGL_src.vi"/>
 			<Item Name="ComplexSGL" Type="VI" URL="../AlphaBetaAndDQ_variants/ComplexSGL"/>
-			<Item Name="CORDIC.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FPGAIPBuilder/CORDIC/Algorithm/CORDIC.vi"/>
 			<Item Name="DeltaToWye_src.vi" Type="VI" URL="../DeltaToWye_src.vi"/>
 			<Item Name="DQtoABC_noSine_PowerInvariant_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/DQtoABC_noSine_PowerInvariant_src.vi"/>
 			<Item Name="DQtoABC_noSine_UnitaryMagnitude_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/DQtoABC_noSine_UnitaryMagnitude_src.vi"/>
@@ -67,7 +63,6 @@
 			<Item Name="DQtoAlphaBeta_src.vi" Type="VI" URL="../AlphaBetaAndDQ_variants/DQtoAlphaBeta_src.vi"/>
 			<Item Name="InvSymmetricalComponents_src.vi" Type="VI" URL="../InvSymmetricalComponents_src.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="sincos.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FPGAIPBuilder/CORDIC/Algorithm/sincos.vi"/>
 			<Item Name="sincosFXP.vi" Type="VI" URL="../sincosFXP.vi"/>
 			<Item Name="sincosSGL.vi" Type="VI" URL="../sincosSGL.vi"/>
 			<Item Name="SymmetricalComponents_src.vi" Type="VI" URL="../SymmetricalComponents_src.vi"/>
@@ -128,6 +123,7 @@
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
 			<Property Name="crio.Type" Type="Str">sbRIO-9607</Property>
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="FPGA Target 2" Type="FPGA Target">
 				<Property Name="AutoRun" Type="Bool">false</Property>
 				<Property Name="configString.guid" Type="Str">{014CA261-F06B-474A-AEFD-B8F97D3D77C0}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{066DA2C8-D887-45CB-AC63-F20580415D80}resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{525C6403-B6BF-42CA-9147-EBA9CB049186}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{93F51B64-0858-4589-8A16-AD9336933BE4}resource=/Scan Clock;0;ReadMethodType=bool{A74C5827-200A-4DAE-A1DC-B32E1A122553}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;sbRIO-9607/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSSBRIO_9607FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
@@ -283,6 +279,9 @@
 						<Property Name="TopLevelVI" Type="Ref"></Property>
 					</Item>
 				</Item>
+			</Item>
+			<Item Name="Real-Time Scan Resources" Type="Module Container">
+				<Property Name="crio.ModuleContainerType" Type="Str">crio.RSIModuleContainer</Property>
 			</Item>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
