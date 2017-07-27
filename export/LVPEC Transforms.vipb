@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-02-14 10:50:00" Modified_Date="2017-07-25 14:25:06" Creator="Brian Kindinger" Comments="" ID="9ea4e6045cbfb2f7963b2f5044b888ed">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-02-14 10:50:00" Modified_Date="2017-07-27 13:33:58" Creator="Brian Kindinger" Comments="" ID="1cdcb3b4d0feb8a052ad1df619dc0c2d">
   <Library_General_Settings>
     <Package_File_Name>pec_lib_Transforms</Package_File_Name>
-    <Library_Version>1.0.0.5</Library_Version>
+    <Library_Version>1.0.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\dev</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -206,7 +206,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path/>
       </Synchronization_Info>
-      <GUID>EA789D2BFB186C1E27040B1F2427A1BE</GUID>
+      <GUID>3A69CC65BDB936757EE090866DE356E3</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -227,7 +227,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path/>
       </Synchronization_Info>
-      <GUID>3B9B8C38758DBF8AE474BC70C501DCCC</GUID>
+      <GUID>4742720447D7ACDEB99FE2C85690E7C9</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
